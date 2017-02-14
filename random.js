@@ -30,7 +30,7 @@ function createFirstScene() {
     makeText("spongebob", 20, 30, 5, "sans-serif", "black",1)
         var number = Math.random()
     if(number < 0.5){
-        makeText("boobsponge",20,80,) 
+        makeText("boobsponge",20,80) 
     }else{
         makeText("spongebob",20,80)
     }

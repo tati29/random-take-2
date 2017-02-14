@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
 #button-container {
     text-align: center;
 }
 
 h1 {
     text-align: center;
+    color: mediumpurple;
+    font-family: pangolin;
+}
+body{
+background: pink;
 }
