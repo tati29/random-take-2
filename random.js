@@ -30,7 +30,7 @@ function createFirstScene() {
     makeText("spongebob", 20, 30, 5, "sans-serif", "black",1)
         var number = Math.random()
     if(number < 0.5){
-        makeText("boobsponge",20,80) 
+        makeText("boobsponge",20,80,) 
     }else{
         makeText("spongebob",20,80)
     }
@@ -49,7 +49,7 @@ makeText("Stephen Curry", 20,60,10,"@import url('https://fonts.googleapis.com/cs
     if(number < 0.5){
         makeText("my boi steven curry",50,50) 
     }else{
-        makeText("stephen curry",50,50)
+        makeText("stephen curry",50,50,"white")
     }
 }
 // Fill in this function so that it draws something using SVG shapes!
@@ -61,6 +61,12 @@ makeEllipse(50,50,7,20,"green",1)
 makeCircle(50,40,3,"yellow")
 makeCircle(50,40,1,"red")
 makeText("plankton",20,60,10,"@import url('https://fonts.googleapis.com/css?family=Raleway');" )
+    var number = Math.random()
+    if(number < 0.5){
+        makeText("my boi steven curry",50,50) 
+    }else{
+        makeText("plankton",50,50,"white")
+    }
 }
 
 
